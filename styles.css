@@ -1,5 +1,6 @@
 body {
-  background-image: -webkit-gradient(linear, left top, right top, from(black), to(red));
-  background-image: linear-gradient(to right, black, red);
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(#a50bc4));
+  background-image: linear-gradient(to right, black, #a50bc4);
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
