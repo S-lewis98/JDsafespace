@@ -1,6 +1,10 @@
 
 $accent1: black;
 $accent2: rgb(165, 11, 196);
+*
+{
+    
+}
 body
 {
     background-image: linear-gradient(to right, $accent1 , $accent2);
