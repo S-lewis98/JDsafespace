@@ -1,12 +1,12 @@
 
 $accent1: black;
-$accent2: rgb(165, 11, 196);
+$accent2: rgb(8, 7, 83);
 *
 {
     
 }
 body
 {
-    background-image: linear-gradient(to right, $accent1 , $accent2);
+    background-image: linear-gradient(to right, $accent1 , red,  $accent2);
     color: white;
 }
