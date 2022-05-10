@@ -3,10 +3,18 @@ $accent1: black;
 $accent2: rgb(8, 7, 83);
 *
 {
-    
+    padding: 0%;
+    margin: 0%;
 }
-body
+//  body
+// {
+//     background-image: url("main-md.JPG");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+
+footer
 {
-    background-image: linear-gradient(to right, $accent1 , red,  $accent2);
-    color: white;
+    background-color: white;
 }

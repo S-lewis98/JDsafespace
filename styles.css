@@ -1,6 +1,9 @@
-body {
-  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(red), to(#080753));
-  background-image: linear-gradient(to right, black, red, #080753);
-  color: white;
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+footer {
+  background-color: white;
 }
 /*# sourceMappingURL=styles.css.map */
