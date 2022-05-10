@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 $accent1: black;
 $accent2: rgb(8, 7, 83);
 *
@@ -18,3 +18,35 @@ footer
 {
     background-color: white;
 }
+#logo {
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+}
+// #footer{
+//     position:fixed;
+//     bottom:0;
+//     left:0;
+//     width: 100%;
+//    }
+#second
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.carousel .item {
+    height: 300px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
