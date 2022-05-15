@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 $accent1: black;
 $accent2: rgb(8, 7, 83);
+@mixin cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
 *
 {
     padding: 0%;
@@ -20,20 +28,24 @@ footer
 }
 #logo {
     font-family: 'Bebas Neue', cursive;
-    color: red;
+    color:purple;
 }
-// #footer{
-//     position:fixed;
-//     bottom:0;
-//     left:0;
-//     width: 100%;
-//    }
-#second
+
+#first 
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    @include cards()
+}
+#second 
+{
+    @include cards()
+}
+#third 
+{
+    @include cards()
+}
+#fourth 
+{
+    @include cards()
 }
 .card {
     margin: 0 auto; /* Added */
